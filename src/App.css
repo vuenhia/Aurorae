@@ -1,0 +1,38 @@
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+}
+.app-layout {
+	display: grid;
+	grid-template-rows: 1fr auto;
+	height: 100vh;
+	overflow: hidden;
+}
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.visualCanvasContainer {
+	text-align: center;
+	height: 70%;
+	width: 50%;
+	background: greY;
+	border-radius: 10px;
+}
+.visual-canvas {
+}
+.visual-controls {
+	width: 250px;
+	height: 100%;
+}
+.footer-container {
+	padding: 2rem;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	background-color: #111;
+	color: white;
+}

@@ -1,0 +1,57 @@
+.visual-controls {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 250px;
+	background: rgba(30, 30, 40, 0.95);
+	border-right: 1px solid #444;
+	transform: translateX(-227px);
+	transition: transform 0.5s ease;
+	z-index: 1000;
+}
+
+.visual-controls:hover {
+	transform: translateX(0);
+}
+
+.toggle-tab {
+	position: absolute;
+	right: -30px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #444;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 0 6px 6px 0;
+	font-size: 18px;
+	cursor: default;
+}
+.control-content {
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+
+.control-grid {
+	display: grid;
+	width: 75%;
+	gap: 20px;
+	margin: 0 auto;
+	margin-top: 20%;
+	height: 500px;
+}
+button {
+	border-radius: 20px;
+}
+.back-button {
+	border-radius: 5px;
+	height: 30px;
+	width: 25%;
+	margin-top: 20px;
+}
+.child-buttons {
+	height: 35px;
+	border-radius: 5px;
+	padding: 0 5px;
+}

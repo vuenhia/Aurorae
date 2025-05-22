@@ -1,0 +1,8 @@
+.thoughtbox-button {
+	border-radius: 0;
+	height: 30px;
+	width: 30px;
+}
+.thoughtbox-button:hover {
+	cursor: pointer;
+}
