@@ -1,11 +1,11 @@
 import "./ThoughtBox.css";
 import { useState } from "react";
-export default function ThoughtBox() {
+export default function ThoughtBox({ onClick }) {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
 		<div>
-			<button onClick={() => setIsOpen(true)} className="thoughtbox-button">
+			<button onClick={onClick} className="thoughtbox-button">
 				📝
 			</button>
 		</div>

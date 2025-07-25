@@ -2,6 +2,7 @@ import "./VisualControls.css";
 import React from "react";
 export default function VisualControls() {
 	const [activeSection, setActiveSection] = React.useState(false);
+	const [isClicked, setIsClicked] = React.useState(true);
 
 	const activeClicked = (section) => {
 		setActiveSection(section);
